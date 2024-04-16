@@ -1,0 +1,15 @@
+[package]
+name = "loara-genconf"
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "loara-cfggen"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+blake2 = "0.10"
+generic-array = "1.0"
